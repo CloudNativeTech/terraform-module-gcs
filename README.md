@@ -12,7 +12,7 @@ Terraform 0.12.x
 | force\_destroy | Delete all objects when deleting bucket. | bool | `false` | no |
 | labels | Labels to assign on the GCS bucket. | map | n/a | yes |
 | project\_id | GCS Project ID. | string | n/a | yes |
-| region | GCS Location. | string | `"EU"` | no |
+| gcs_location | GCS Location. | string | `"EU"` | no |
 | storage\_class | The Storage class of the GCS bucket. Supported Values - STANDARD, MULTI\_REGIONAL, REGIONAL, NEARLINE, COLDLINE. | string | `"STANDARD"` | no |
 
 ## Usage
