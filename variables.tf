@@ -14,7 +14,7 @@ variable "region" {
 }
 
 variable "force_destroy" {
-  description = "Delete all objects when deleting bucket?"
+  description = "Delete all objects when deleting bucket."
   type        = bool
   default     = false
 }
@@ -22,7 +22,7 @@ variable "force_destroy" {
 variable "storage_class" {
   description = <<EOF
 The Storage class of the GCS bucket.
-Supperted Values - STANDARD, MULTI_REGIONAL, REGIONAL, NEARLINE, COLDLINE.
+Supported Values - STANDARD, MULTI_REGIONAL, REGIONAL, NEARLINE, COLDLINE.
 EOF
   type        = string
   default     = "STANDARD"
@@ -34,7 +34,7 @@ variable "labels" {
 }
 
 variable "enable_versioning" {
-  description = "Enable GCS Bucket versioning?"
+  description = "Enable GCS Bucket versioning."
   type        = bool
   default     = false
 }

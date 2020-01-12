@@ -8,12 +8,12 @@ Terraform 0.12.x
 | Name | Description | Type | Default | Required |
 |------|-------------|:----:|:-----:|:-----:|
 | bucket\_name | Google Cloud Storage \(GCS\) bucket Name. | string | n/a | yes |
-| enable\_versioning | Enable GCS Bucket versioning? | bool | `false` | no |
-| force\_destroy | Delete all objects when deleting bucket? | bool | `false` | no |
+| enable\_versioning | Enable GCS Bucket versioning. | bool | `false` | no |
+| force\_destroy | Delete all objects when deleting bucket. | bool | `false` | no |
 | labels | Labels to assign on the GCS bucket. | map | n/a | yes |
 | project\_id | GCS Project ID. | string | n/a | yes |
 | region | GCS Location. | string | `"EU"` | no |
-| storage\_class | The Storage class of the GCS bucket. Supperted Values - STANDARD, MULTI\_REGIONAL, REGIONAL, NEARLINE, COLDLINE. | string | `"STANDARD"` | no |
+| storage\_class | The Storage class of the GCS bucket. Supported Values - STANDARD, MULTI\_REGIONAL, REGIONAL, NEARLINE, COLDLINE. | string | `"STANDARD"` | no |
 
 ## Usage
 Example module invocation:
