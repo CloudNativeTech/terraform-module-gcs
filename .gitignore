@@ -1,0 +1,29 @@
+# Terraform
+**/.terraform/*
+.terraform
+*.tfstate
+*.tfstate.*
+*.plan
+.terraform.d
+crash.log
+terraform.tfstate.d/
+terraform.tfvars
+
+# Mac OS
+._*
+.DS_Store
+
+# Git
+.git
+
+# Logs
+*.log
+
+# gcloud config
+.config
+credentials.json
+
+# Others
+.idea
+.vscode/
+scratchpad/
