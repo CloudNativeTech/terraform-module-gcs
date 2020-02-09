@@ -39,5 +39,8 @@ module "storage" {
 ## Changelog
 See [CHANGELOG.md](CHANGELOG.md)
 
+## LICENSE
+Please see [LICENSE](LICENSE)
+
 ## Contact
 [Send email](mailto:contact@cntek.io?subject=Regarding%20CloudNativeTech/terraform-module-gcs)
