@@ -1,0 +1,26 @@
+---
+driver:
+  name: terraform
+  command_timeout: 300
+
+provisioner:
+  name: terraform
+
+verifier:
+  name: terraform
+  fail_fast: false
+
+platforms:
+  - name: terraform
+
+suites:
+  - name: default
+    driver:
+      root_module_directory: test/fixtures/default
+    verifier:
+      color: true
+      systems:
+        - name: default
+          backend: gcp
+          controls:
+            - default

@@ -27,3 +27,7 @@ credentials.json
 .idea
 .vscode/
 scratchpad/
+.kitchen/
+.kitchen.local.yml
+Gemfile.lock
+inspec.lock

@@ -7,6 +7,7 @@ variable "project_id" {
   description = "GCS Project ID."
   type        = string
 }
+
 variable "gcs_location" {
   description = "GCS Location."
   type        = string

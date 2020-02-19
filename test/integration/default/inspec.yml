@@ -1,0 +1,8 @@
+name: default
+depends:
+  - name: inspec-gcp
+    url: https://github.com/inspec/inspec-gcp/archive/master.zip
+attributes:
+  - name: bucket_name
+    required: true
+    type: string
