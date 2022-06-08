@@ -31,7 +31,7 @@ EOF
 
 variable "labels" {
   description = "Labels to assign on the GCS bucket."
-  type        = map
+  type        = map(any)
 }
 
 variable "enable_versioning" {

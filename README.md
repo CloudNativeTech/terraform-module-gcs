@@ -2,7 +2,7 @@
 Terraform Module for Google Cloud Storage (GCS)
 
 ## Terraform Version
-Terraform 0.12.x
+Terraform 1.2.x
 
 ## Input Variables
 | Name | Description | Type | Default | Required |

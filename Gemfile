@@ -1,6 +1,6 @@
-ruby '2.5.3'
+ruby '2.7.4'
 
 source 'https://rubygems.org/' do
-  gem 'kitchen-terraform',  '4.9.0'
+  gem 'kitchen-terraform',  '6.1.0'
+  gem "test-kitchen", '3.2.2'
 end
-gem "test-kitchen", '1.25.0'
