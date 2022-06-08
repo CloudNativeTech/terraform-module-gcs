@@ -1,14 +1,14 @@
-output "name" {
+output "bucket_name" {
   description = "GCS bucket name."
-  value       = google_storage_bucket.bucket.name
+  value       = module.storage.name
 }
 
-output "self_link" {
+output "bucket_self_link" {
   description = "URI of the GCS bucket."
-  value       = google_storage_bucket.bucket.self_link
+  value       = module.storage.self_link
 }
 
-output "url" {
+output "bucket_url" {
   description = "The base URL of the bucket, in the format gs://<bucket-name>"
-  value       = google_storage_bucket.bucket.url
+  value       = module.storage.url
 }

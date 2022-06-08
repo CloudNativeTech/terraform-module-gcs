@@ -1,5 +1,14 @@
+
+terraform {
+  required_providers {
+    google = {
+      source  = "hashicorp/google"
+      version = "~> 4.0"
+    }
+  }
+}
+
 provider "google" {
-  version = "~> 2.0"
 }
 
 module "storage" {
